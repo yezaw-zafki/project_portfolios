@@ -11,7 +11,7 @@ CREATE TABLE source (
     unitprice DECIMAL(10 , 2 ),
     shipping_address VARCHAR(50),
     payment_method VARCHAR(50),
-    orderstatus VARCHAR(50),
+    order_status VARCHAR(50),
     tracking_number VARCHAR(50),
     items_in_cart INT,
     coupon_code VARCHAR(50),
