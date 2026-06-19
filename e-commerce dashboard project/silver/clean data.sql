@@ -10,14 +10,14 @@ DROP TABLE IF EXISTS silver.clean_source;
 CREATE TABLE clean_source
 SELECT 
 	orderid,
-	DATE_FORMAT(date, '%d-%m-%Y') date,
+	date,
 	customerid,
 	product,
 	quantity,
 	round(unitprice,2) unitprice,
 	TRIM(shipping_address) shipping_address,
 	CASE WHEN payment_method='Cash' THEN 'Cash'
-		ELSE 'Online' END paymenth_method,
+		ELSE 'Online' END payment_method,
 	order_status,
 	tracking_number,
 	items_in_cart,
