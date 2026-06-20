@@ -1,4 +1,7 @@
-# E-commerace Dashboard Project 
+## Tips
+You can directly go to the result folder for Business reports and visualization.
+
+# E-commerace Dashboard Project
 In this e-commerce project, using 3 layer Medallion Architecture method that I learn from data with baraa from YouTube. Gratefully Thank you for Mr. Baraa knowledge and wisdom.
 - Bronze layer -> insert csv file and leave as-it for data traceability.
 - Silver layer -> insert data from bronze layer using CTAS table. Clean and Transform processes has done in that step
