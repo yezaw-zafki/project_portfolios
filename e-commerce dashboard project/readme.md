@@ -1,4 +1,4 @@
-## Tips
+### Tips
 You can directly go to the result folder for Business reports and visualization.
 
 # E-commerace Dashboard Project
