@@ -1,4 +1,4 @@
-customerid;return_count;"CONCAT(total_spending,' $')";spending_rank;class;coupon_code;referral_source;shipping_address
+customer_id,return_count,total_spending,spending_rank,customer_class,coupon_code,referral_source,shipping_address
 C57276;1;"3456.40 $";1;VIP;SAVE10;Email;"183 Main St"
 C67260;1;"3390.80 $";2;VIP;WINTER15;Facebook;"463 Main St"
 C47778;1;"3334.00 $";3;VIP;SAVE10;Referral;"488 Main St"
